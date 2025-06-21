@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align:center;
+    background:linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 100%);
+}
+
+.header {
+    display: inline-block;
+    height: 80px;
+    width:100%;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.profile-image {
+    margin: 16px 0 0;
+    text-align: center;
+}
+
+.profile-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%
+}
+
+.heading_1 {
+    font-size: 32px;
+    color: lightcyan;
+    font-family: Gotham, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading_2 {
+    font-size: 32px;
+    color: lightcyan;
+}
+
+.heading_3 {
+    font-size: 24px;
+    color: lightcyan;
+    font-family: Gotham, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text {
+    font-size: 16px;
+    color: lightcyan;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: lightcyan;
+}
